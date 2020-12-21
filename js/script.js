@@ -20,3 +20,8 @@ $(".click1").click(function () {
     $(".show1").slideToggle(1200);
   });
   
+  $(".click2").click(function () {
+    $(".hide2").slideToggle(1000);
+    $(".show2").slideToggle(1200);
+  });
+  
