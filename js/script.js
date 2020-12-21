@@ -38,4 +38,8 @@ $(".click1").click(function () {
       if ($("input#name").val()) {
         alert("Hey " + name + ", Thanks for reaching out to us,Will get back to you");
       }
+      else {
+        alert("Please provide your correct name and email!");
+      }
   
+    });
