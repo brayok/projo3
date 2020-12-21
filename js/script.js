@@ -43,3 +43,6 @@ $(".click1").click(function () {
       }
   
     });
+
+
+});
