@@ -29,4 +29,9 @@ $(".click1").click(function () {
     $(".hide3").slideToggle(1000);
     $(".show3").slideToggle(1200);
   });
+
+  $(function () {
+    $("form#form").on('submit', function (event) {
+      event.preventDefault();
+      let name = $("input#name").val();
   
