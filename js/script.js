@@ -15,3 +15,8 @@
 //       $(".product").toggle();
 //     });
 //   });
+$(".click1").click(function () {
+    $(".hide1").slideToggle(1000);
+    $(".show1").slideToggle(1200);
+  });
+  
